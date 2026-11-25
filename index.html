@@ -21,7 +21,7 @@
         <p class="eyebrow">CircuitWorkshop · Android</p>
         <h1 id="page-title">Privacy policy</h1>
         <p class="intro">Your circuits, progress and settings stay on your device. Advertising uses Google's services, with separate data handling and privacy choices.</p>
-        <p class="updated">Effective and last updated: <time datetime="2026-10-13">13 October 2026</time></p>
+        <p class="updated">Last updated <time datetime="2026-11-25">25 November 2026</time></p>
       </div>
       <svg class="circuit-art" viewBox="0 0 220 190" fill="none" aria-hidden="true">
         <rect x="16" y="18" width="188" height="154" rx="18" fill="#e7eee3" stroke="#687e63" stroke-width="2"/>
@@ -57,33 +57,35 @@
         </section>
         <section id="local-data">
           <h2>2. Local game data</h2>
-          <p>CircuitWorkshop has no player accounts or game backend. It stores completed and unlocked levels, the selected level, physical circuit drafts and sound, haptics and reduced-motion settings in the app's private storage. Known older saves are migrated locally. Recoverable damaged records may be retained locally to avoid losing unrelated progress.</p>
+          <p>CircuitWorkshop has no player accounts or game backend. It keeps circuit drafts, completion and unlock progress, the selected level, and sound, haptics and reduced-motion settings in the app's private storage. Versions with the interactive introduction also save whether you completed or skipped it and whether you opened the detailed schematic. Versions with an age-group setting save that choice on your device. Known older saves are migrated locally. Recoverable damaged records may be retained locally to avoid losing unrelated progress.</p>
           <p>These saves are used to continue your circuits and remember your preferences. Circuit layouts and progress are not uploaded to a game server. The app opts out of Android app backup. Puzzles, hints and saved progress work offline; advertising and Google's privacy forms use an internet connection.</p>
-          <p>The game does not request your name, email, age, contacts, camera, microphone or precise device location. It does not include a separate gameplay analytics or crash-reporting service. Google's advertising SDK has its own collection, described next.</p>
+          <p>The game does not request your name, email, exact age, date of birth, contacts, camera, microphone or precise device location. It does not include a separate gameplay analytics or crash-reporting service. Google's advertising SDK has its own collection, described next.</p>
         </section>
         <section id="advertising">
           <h2>3. Advertising and Google</h2>
-          <p>CircuitWorkshop uses Google AdMob through the Google Mobile Ads SDK for banner ads and an optional ad at a fresh app opening. Google's User Messaging Platform (UMP) manages advertising privacy messages and choices.</p>
-          <p>Google's advertising SDK collects and shares IP addresses, which can indicate general location; app and ad interactions, such as launches, taps and video views; diagnostic and performance information; and advertising, app-set and applicable device/account identifiers. Google uses this information for advertising, analytics and fraud prevention. SDK data is encrypted in transit using TLS.</p>
+          <p>CircuitWorkshop uses Google AdMob through the Google Mobile Ads SDK for banner ads and an optional ad at a fresh app opening. Some versions also show full-screen interstitial ads after certain new level completions. Google's User Messaging Platform (UMP) manages advertising privacy messages and choices.</p>
+          <p>Google's advertising SDK collects and shares IP addresses, which can indicate approximate location. It also collects and shares app and ad interactions such as launches, taps and video views, diagnostic and performance information, and identifiers such as the Android advertising ID and app set ID. Other device or account identifiers may apply. Google uses this information for advertising, analytics and fraud prevention. SDK data is encrypted in transit using TLS.</p>
           <p>Google and its advertising partners process this information under their own policies and the applicable privacy choices. The developer may receive advertising reports through AdMob. These reports are separate from your locally saved circuits.</p>
           <p>Read <a href="https://policies.google.com/privacy">Google's Privacy Policy</a>, <a href="https://policies.google.com/technologies/ads">Google's advertising information</a> and the <a href="https://developers.google.com/admob/android/privacy/play-data-disclosure">Mobile Ads SDK data disclosure</a>.</p>
         </section>
         <section id="choices">
           <h2>4. Your privacy choices</h2>
+          <p>Versions with age selection ask you to choose <strong>Under 18</strong>, <strong>18 or older</strong> or <strong>Prefer not to say</strong> before requesting ads. You can change your answer under <strong>Settings → Age group</strong> and open this policy from Settings.</p>
+          <p>Choosing Under 18 or Prefer not to say gives you the same ad treatment. The app sends Google's UMP an under-age-of-consent flag and configures AdMob for child-directed treatment, which limits personalized advertising. It also caps AdMob ads at Google's G (general audience) rating. The specific choice is stored on your device. Google receives the resulting treatment signals. If you choose 18 or older, the applicable Google consent and advertising privacy choices apply.</p>
           <p>The app checks Google's consent status and displays a privacy message when required and available for your region and the advertising service's configuration. Ads are requested only when UMP permits them. Google stores and manages the advertising choices used by its services.</p>
           <p>You can revisit <strong>Settings → Ad privacy choices</strong>, or the same option in the game menu, when Google requires this entry point. Your choices affect the advertising that Google permits. Declining personalized advertising does not necessarily disable all ads or all advertising-related data processing.</p>
-          <p>Android provides controls to reset or delete the advertising ID; labels and availability vary by device. <strong>Continue to workshop</strong> skips the opening ad opportunity for that launch. Skipping an opening ad does not change consent choices or disable banner ads. Unavailable ads never block gameplay.</p>
+          <p>Android provides controls to reset or delete the advertising ID; labels and availability vary by device. <strong>Continue to workshop</strong> skips the opening ad opportunity for that launch. Skipping the opening ad leaves consent choices in effect. Unavailable ads never block gameplay.</p>
         </section>
         <section id="retention">
           <h2>5. Retention, security and deletion</h2>
           <p>Local saves remain in the app's private storage until changed or removed. Restarting a circuit clears its current construction while keeping earned progress and other data. It does not erase all app data or retained recovery records.</p>
-          <p>To remove all local CircuitWorkshop data, use Android's <strong>Clear storage</strong> or <strong>Clear data</strong> for the app, or uninstall it. This removes local saves, settings, recovery records and locally stored advertising choices. Clearing the cache alone does not remove saves. See the <a href="data-deletion.html">data-deletion instructions</a>.</p>
+          <p>To remove all local CircuitWorkshop data, use Android's <strong>Clear storage</strong> or <strong>Clear data</strong> for the app, or uninstall it. This removes local saves, settings, the age-group choice where available, recovery records and locally stored advertising choices. Clearing the cache alone does not remove saves. See the <a href="data-deletion.html">data-deletion instructions</a>.</p>
           <p>Removing the app does not delete information already sent to Google or messages sent to the developer. Google's retention, processing locations and deletion controls are described in its privacy policy. Google may process information outside your country. The developer does not control Google's retention periods or hold your device's local save files.</p>
           <p>Local data relies on Android's app-private storage protections. Advertising SDK transmissions use TLS, as described by Google. No method of storage or transmission guarantees complete security.</p>
         </section>
         <section id="contact">
           <h2>6. Contact, requests and age-related concerns</h2>
-          <p>Email <a href="mailto:cordunianuflorin@gmail.com">cordunianuflorin@gmail.com</a> with privacy questions or requests, including concerns about use by a child. CircuitWorkshop does not request an age or create a player profile; advertising processing is described above.</p>
+          <p>Email <a href="mailto:cordunianuflorin@gmail.com">cordunianuflorin@gmail.com</a> with privacy questions or requests, including concerns about use by a child. CircuitWorkshop does not create player profiles. The age-group choice and its advertising use are described above.</p>
           <p>If you contact the developer, your email address, message and information you choose to include are used to respond and handle your request. Please avoid sending unnecessary personal information. Correspondence is retained as needed to resolve the request and maintain necessary support or legal records, then removed when no longer needed. Email providers process messages under their own policies.</p>
           <p>Your privacy rights depend on where you live and which party holds the information. Contact the developer about information shared directly with the developer, including access, correction or deletion requests where applicable. For Google's advertising data, use the controls and contact routes in Google's policies. Local game data can be removed using the instructions linked above.</p>
         </section>
